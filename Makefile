@@ -40,7 +40,7 @@ ADD_GLYPHS_FLAGS = -a emoji_aliases.txt
 PUA_ADDER = map_pua_emoji.py
 VS_ADDER = add_vs_cmap.py # from nototools
 
-EMOJI_SRC_DIR ?= png/160
+EMOJI_SRC_DIR ?= filtered
 
 BUILD_DIR := build
 EMOJI_DIR := $(BUILD_DIR)/emoji
